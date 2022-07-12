@@ -1,6 +1,5 @@
 function getQueryParam(query) {
   let params = new URL(window.location).searchParams;
-  console.log(params ,"ggggggggggggg");
   return params.get(query);
 }
 function getWeather(city) {

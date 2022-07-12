@@ -19,7 +19,6 @@ function enterCity(e) {
         return alert(data.error.message,"2222222");
       } 
       modalInput.value = "";
-      
        createWeatherCard(data);
     });
   }
