@@ -1,0 +1,1 @@
+https://www.server.com/api/weather/?city=yerevan

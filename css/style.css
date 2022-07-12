@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.3;
+}
+
+body {
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.19);
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+}
+
+.header--logo__link--img {
+  width: 40px;
+}
+
+.header__links__item--link {
+  color: #fff;
+}
+
+main.content {
+  min-height: calc(100vh - 152px);
+}
+
+.content .content__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  gap: 24px;
+}
+
+.content .content__cards .content__cards__card {
+  background: rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 400px;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content__cards__card__top-bar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.content__cards__card--location {
+  font-size: 24px;
+}
+
+.content__cards__card--date {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.content__cards__card__weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.content__cards__card__weather--number {
+  font-size: 77px;
+  position: relative;
+}
+
+.celcius::before {
+  content: "°C";
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  font-size: 20px;
+}
+
+.content__cards__card__information {
+  position: absolute;
+  bottom: 30px;
+  color: white;
+}
+
+.content__cards__card__information--item {
+  font-size: 12px;
+}
+
+.content .content__cards .content__cards__card .content__cards__card__btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+footer.footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.footer .footer--icon {
+  margin: 0 5px;
+}
+.content__cards__card__weather h1 {
+  margin-top: 12px;
+  color: darkolivegreen;
+  font-weight: 700;
+}
